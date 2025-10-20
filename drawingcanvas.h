@@ -42,5 +42,11 @@ private:
     QVector<QPoint> m_points;
 
     bool isPaintLinesClicked = false;
+
+    bool m_detectionVisualizationActive = false;
+    QVector<QPoint> m_endpointPixels;
+    QVector<QPoint> m_cornerPixels;
+    QVector<QPoint> m_bodyMiddlePixels;
+    QVector<QPoint> m_intersectionPixels;
 };
 #endif // DRAWINGCANVAS_H
